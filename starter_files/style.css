@@ -21,6 +21,7 @@ header {
   background-color: #ff8523;
   color: white;
   padding: 20px;
+  border: 2px solid green;
 }
 
 #logo {
@@ -55,13 +56,17 @@ h3 {
   color: #1fabe5;
 }
 
-table {
-  border: 2px solid;
-  border-color: #1fabe5;
-  text-align: center;
+thead {
+  background-color: #046c97
 }
 
-table a{
+table {
+  border-collapse: collapse;
+  text-align: center;
+  padding: inherit;
+}
+
+td{
   border: 2px solid #1fabe5;
   text-align: center;
 }
