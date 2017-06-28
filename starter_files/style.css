@@ -13,17 +13,29 @@ colors:
     dark blue - #046c97
 */
 body {
+  background-image: url(img/bg.jpg);
+  background-repeat: repeat;
+  padding: 5%;
+}
+
+body >div {
   font-family: sans-serif;
   margin-left: 10%;
   margin-right: 10%;
   border: 1px solid orange;
   border-radius: 2px;
+  background-color: white;
 }
 
 header {
   background-color: #ff8523;
   color: white;
   padding: 20px;
+}
+
+section {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #logo {
@@ -74,9 +86,14 @@ td{
   text-align: center;
 }
 
-section {
+/*section {
   border-bottom: 5px solid #eee;
   padding: 0px 50px 0px 10px;
+}*/
+
+hr {
+  width: 97%;
+  height: 20%;
 }
 
 form {
