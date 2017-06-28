@@ -14,11 +14,16 @@ colors:
 */
 body {
   font-family: sans-serif;
+  margin: 20px;
 }
 
 header {
   background-color: #ff8523;
   color: white;
+  padding: 20px;
+}
+
+#logo {
   padding: 20px;
 }
 
@@ -34,8 +39,10 @@ header {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
-  padding: 5px;
-  width:10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width:20px;
   height:10px;
   margin: 2px;
 }
@@ -55,7 +62,6 @@ table {
 }
 
 table a{
-  border: 2px solid;
-  border-color: #1fabe5;
+  border: 2px solid #1fabe5;
   text-align: center;
 }
