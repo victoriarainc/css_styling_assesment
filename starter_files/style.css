@@ -123,7 +123,19 @@ div label {
   font-weight: bold;
 }
 
+#bio {
+  margin-top: 3%;
+}
+
 .submit_container {
   font-weight: bold;
   margin-top: ;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border-radius: 2%;
+  padding: 2%;
+  color: white;
+  text-transform: uppercase;
 }
