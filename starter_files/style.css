@@ -14,14 +14,14 @@ colors:
 */
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 header {
   background-color: #ff8523;
   color: white;
   padding: 20px;
-  border: 2px solid green;
 }
 
 #logo {
@@ -46,6 +46,7 @@ header {
   width:20px;
   height:10px;
   margin: 2px;
+  text-decoration: none;
 }
 
 h2 {
@@ -69,4 +70,10 @@ table {
 td{
   border: 2px solid #1fabe5;
   text-align: center;
+}
+
+section {
+  border-bottom: 2px solid #eee;
+  padding: 0px 50px 0px 10px;
+
 }
