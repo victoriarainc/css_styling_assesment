@@ -12,12 +12,30 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-header {
-  background-color: #ff8523;
-  text-decoration-color: ##eee;
+body {
+  font-family: sans-serif;
 }
 
-.main_navigation {
-  text-decoration-color: ##eee;
+header {
+  background-color: #ff8523;
+  color: white;
+}
+
+nav {
+  background-color: #ff8523;
+  color: white;
+  border: 1px;
   border-color: white;
+  border-radius: 25px;
+  padding:auto;
+  width:auto;
+  height:auto;
+}
+
+h2 {
+  color: #1fabe5;
+}
+
+h3 {
+  color: #1fabe5;
 }
